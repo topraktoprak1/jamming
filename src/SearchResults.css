@@ -1,0 +1,67 @@
+.results-container {
+  background: rgba(30, 20, 60, 0.95);
+  border-radius: 10px;
+  padding: 16px 0 0 0;
+  color: #fff;
+  width: 350px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.results-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.results-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result-item {
+  border-bottom: 1px solid #3a2a5d;
+  padding: 10px 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: relative;
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+.result-track {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.result-artist {
+  font-size: 0.9rem;
+  color: #b8a1e3;
+}
+
+.result-album {
+  font-size: 0.85rem;
+  color: #a7a7a7;
+}
+
+.result-add {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  color: #fff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.result-add:hover {
+  color: #b8a1e3;
+}
