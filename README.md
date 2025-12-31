@@ -147,11 +147,4 @@ This project is intended for **educational purposes only**.
 
 ---
 
-If you want, I can also:
 
-* Add **screenshots section**
-* Write a **Contributing** guide
-* Add **environment variable explanations**
-* Optimize it for **GitHub portfolio visibility**
-
-Just tell me 👍
